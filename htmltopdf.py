@@ -13,5 +13,3 @@ options={
 	"no-stop-slow-scripts":""
 }
 pdfkit.from_file('cv_GildelaFuenteAlberto.html','cv_GildelaFuenteAlberto.pdf',options=options)
-
-pdfkit.from_url('cv_GildelaFuenteAlberto.html','cv_GildelaFuenteAlberto.pdf',options=options)
