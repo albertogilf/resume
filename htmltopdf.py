@@ -13,4 +13,8 @@ options={
 	"no-stop-slow-scripts":""
 }
 
+path_wkthmltopdf = r'C://Program Files//wkhtmltopdf//bin//wkhtmltopdf.exe'
+config = pdfkit.configuration(wkhtmltopdf=path_wkthmltopdf)
+
+
 pdfkit.from_file('cv_GildelaFuenteAlberto.html','cv_GildelaFuenteAlberto.pdf',options=options)
